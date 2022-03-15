@@ -33,8 +33,17 @@ type(False) # => <class 'bool'>
 "Hello World"
 'Hello World'
 """Hello World"""
-'''hello world'''
+
+# triple quote strings - gives us line breaks in the output
+'''hello 
+world'''
 ```
+<!-- look up f strings for interpolating f goes in front i.e., f'hi my name is: {name}'
+alternatively, 'hi my name is: {}.format(name)'
+also print(help(str)) str is class, shows us all methods on str
+or print(dir(string)) string is string variable, as already declared
+
+-->
 
 <hr>
 
@@ -47,8 +56,8 @@ type([{'name': 'Laura'}, {'name': 'Kevin'}]) # => <class 'list'>
 
 <hr>
 
-## Tuple
-
+## Tuple 
+<!-- tuple is immutable as opposed to list -->
 ```python
 type(()) # => <class 'tuple'>
 type((1, 'hi', 9.0, {}, [], ())) # => <class 'tuple'>
