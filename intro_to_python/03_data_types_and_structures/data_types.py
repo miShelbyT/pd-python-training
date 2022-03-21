@@ -1,6 +1,6 @@
 import sys
 
-print(sys.version_info)
+# print(sys.version_info)
 
 # Numbers
 20
@@ -25,8 +25,8 @@ my name is:
 Laura"""
 
 # print(greeting1[6:])
-name = 'Laura'
-string = f'Hi my name is: {name}'
+name = 'Shelbzzzz'
+# string = f'Hi my name is: {name}'
 # does not work here because my Python isn't new enough. Need 3.6
 
 string = "Hi my name is: {}".format(name)
