@@ -33,21 +33,21 @@ string = "Hi my name is: {}".format(name)
 # print(dir(string))
 # print(help(str))
 # print(help(str.upper))
-# print(len(greeting2))
+print(len(greeting2))
 
 
 
 numbers1 = [2,4,5,6,2]
-numbers2 = (2,4,5,6,2)
+numbers2 = [1,2,4,5,6,2,100]
 
 # print(sys.getsizeof(numbers1))
 
 
 # print(sys.getsizeof(numbers2))
 
-print(set(numbers1))
+print(set(numbers1 + numbers2))
 
 {
-    'name': 'Laura'
+    'name': 'Tiger Rose'
 }
 
